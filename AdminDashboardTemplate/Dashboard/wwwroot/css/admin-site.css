@@ -1,0 +1,26 @@
+﻿/*notification css*/
+.toast-success {
+    opacity: 1 !important;
+    background-color: #2ecc71;
+}
+
+.toast-info {
+    opacity: 1 !important;
+    background-color: #3498db;
+}
+
+.toast-warning {
+    opacity: 1 !important;
+    background-color: #e74c3c;
+}
+
+.toast-error {
+    opacity: 1 !important;
+    background-color: #f39c12;
+}
+
+.table-paging-custom th {
+    vertical-align: middle!important;
+    text-align:center;
+    padding: 10px!important
+}
