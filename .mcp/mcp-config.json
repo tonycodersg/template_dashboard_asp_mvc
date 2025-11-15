@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "description": "GitHub MCP server for repository operations, issues, PRs, and code management. Authenticate via browser on first use."
+    },
+    "jira": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-jira"
+      ],
+      "env": {
+        "JIRA_URL": "https://your-domain.atlassian.net"
+      },
+      "description": "Jira MCP server for issue tracking, project management, and sprint operations. Authenticate via browser on first use."
+    }
+  }
+}
